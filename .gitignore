@@ -1,0 +1,35 @@
+# ─── Python / General ────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# ─── Environment ─────────────────────────────────
+.env
+venv/
+.venv/
+env/
+
+# ─── Database ────────────────────────────────────
+*.db
+*.sqlite3
+
+# ─── IDE ─────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── OS ──────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Testing ─────────────────────────────────────
+.pytest_cache/
+htmlcov/
+.coverage
