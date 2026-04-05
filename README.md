@@ -156,6 +156,7 @@ The API is fully documented using the OpenAPI 3.1 specification. Interactive doc
 - **ReDoc** (readable): `http://localhost:8000/redoc`
 
 **Without running the server:**
+- **Live Interactive Preview (No setup required):** [Click to view Swagger UI](https://petstore.swagger.io/?url=https://raw.githubusercontent.com/patilvinay1131/finance-backend-assignment/main/docs/swagger.json)
 - The exported OpenAPI spec is available at [`docs/swagger.json`](docs/swagger.json)
 - Import it into [Swagger Editor](https://editor.swagger.io), [Postman](https://www.postman.com), or any OpenAPI-compatible tool
 
