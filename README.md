@@ -29,7 +29,7 @@ This backend powers a finance dashboard where users interact with financial reco
 - **Financial record CRUD** with filtering, pagination, and soft-delete
 - **Dashboard analytics** including summaries, category breakdowns, monthly trends, and recent activity
 - **Role-based access control** enforced at the API layer via middleware dependencies
-- **Comprehensive test suite** with 35+ test cases using pytest
+- **Comprehensive test suite** with 44 test cases using pytest
 
 ---
 
@@ -57,7 +57,7 @@ Request → Routes (HTTP) → Services (Business Logic) → Models (Database)
 ```
 
 ```
-Finance-Backend-Assignment/
+Finance Backend Assignment/
 ├── app/
 │   ├── __init__.py
 │   ├── config.py             # Centralized configuration (env vars)
@@ -111,7 +111,7 @@ Finance-Backend-Assignment/
 ```bash
 # 1. Clone the repository
 git clone <repo-url>
-cd Finance-Backend-Assignment
+cd "Finance Backend Assignment"
 
 # 2. Create a virtual environment (recommended)
 python -m venv venv
@@ -393,7 +393,7 @@ All settings are configurable via environment variables (see `.env.example`):
 | Pagination | Implemented | All list endpoints support `page` and `per_page` |
 | Search/Filtering | Implemented | Records filterable by type, category, date range |
 | Soft Delete | Implemented | Records are flagged, not removed |
-| Unit Tests | Implemented | 35+ tests with pytest (auth, CRUD, RBAC, analytics) |
+| Unit Tests | Implemented | 44 tests with pytest (auth, CRUD, RBAC, analytics) |
 | API Documentation | Implemented | Auto-generated Swagger UI + ReDoc |
 | CORS Support | Implemented | Configurable via environment variables |
 | Admin Seeding | Implemented | Default admin created on first startup |
